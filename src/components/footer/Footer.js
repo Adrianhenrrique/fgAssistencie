@@ -12,8 +12,6 @@ function Footer({logo}) {
                         <a href='tel:11914813191'>(11) 91481-3191</a>
                         <br/>
                         <a href='tel:1130906043'>(11) 3090-6043</a>
-                        <br/>Seg a Sab 07:00 – 00:00 
-                        <br/>domingo Por compromisso
                     </p>
                 </div>
 
@@ -26,7 +24,7 @@ function Footer({logo}) {
                     </div>
                 </div>
             </div>
-        <p className={style.reserved}>F&G ASSISTÊNCIA DOMICILIAR – Todos os direitos reservados.<br/>CNPJ: 53.504.231/0001-07ㅤㅤㅤㅤㅤCopyright © 2024<br/>
+        <p className={style.reserved}>F&G ASSISTÊNCIA DOMICILIAR – Todos os direitos reservados.<br/>CNPJ: 00.000.000/0000-00ㅤㅤCopyright © 2024<br/>
         <div>
         <br/>Feito com <span>&hearts;</span>
         </div>

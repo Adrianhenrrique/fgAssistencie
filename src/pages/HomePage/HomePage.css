@@ -151,3 +151,37 @@
   }
 }
 
+@media (max-width: 400px) {
+  .App > .Banner > ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .App > .Banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+
+  .App > .Banner > ul > li {
+    font-size: 10px;
+  }
+
+  .App > .Banner > ul > a > .bnt {
+    width: 80%;
+  }
+
+  .HomePageFooter > .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .HomePageFooter > .content > .socialMedia {
+    margin: 0;
+    padding: 0;
+  }
+}
+

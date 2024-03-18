@@ -1,5 +1,4 @@
 import style from './Card.module.css';
-import "animate.css/animate.min.css";
 
 
 function Card({imagen, title, descript, inverted}) {
