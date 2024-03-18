@@ -11,7 +11,8 @@ function Header({logo}) {
                     <img src={logo} className={style.logo}/>
                     <h1>F&G ASSISTÊNCIA DOMICILIAR</h1>
                 </div>
-                {/* {isLargerThan800 ? <NavBar/> : <NavBarMobile/>} */}
+                <NavBar/>
+                {/* {isLargerThan800 ?  : <NavBarMobile/>} */}
             </header>
         </>
     )
