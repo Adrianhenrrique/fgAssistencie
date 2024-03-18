@@ -16,7 +16,7 @@ function Footer({logo}) {
                 </div>
 
                 <div className={style.socialMedia}>
-                    <h2>Redes social</h2>
+                    <h2>Rede Social</h2>
                     <div>
                         <a className={style.social} href='https://www.instagram.com/fg.homecare?igsh=MTVsOXlra3JuZGlyMQ==' target="_blank">
                             <img src={logo} />
