@@ -1,0 +1,28 @@
+.whatsapp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  
+    height: 55px;
+    width: 55px;
+  
+    padding: 7px;
+    background-color: #34AF23;
+    border-radius: 50px;
+  
+    transition: transform 0.5s ease-in-out;
+  }
+  
+.whatsapp:hover {
+    transform: scale(1.05);
+}
+  
+  .whatsapp > img {
+    height: 40px;
+    width: 40px;
+  
+    filter: invert(1);
+  }

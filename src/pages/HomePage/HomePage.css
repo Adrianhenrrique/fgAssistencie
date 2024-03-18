@@ -1,0 +1,153 @@
+.App {
+  text-align: center;
+  background-color: #fff;
+}
+
+.App > .Banner {
+  background-image: url(../../Img/Banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 45vmin;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.App > .Banner > ul{
+  display: inline;
+  margin: 0;
+  padding: 12px 20px;
+}
+
+.App > .Banner > ul > li{
+  list-style-type: none;
+  margin-top: 5px;
+  font-family: Helvetica, arial, sans-serif;
+  color: rgb(255, 252, 252);
+  text-shadow: 1px 1px #000;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.App > .Banner > ul > a > .bnt {
+  padding: 17px 32px;
+  background-color: rgb(50, 75, 133);
+  border: 0;
+  color: #fff;
+  margin-top: 55px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.071em;
+  cursor: pointer;
+
+  transition: background-color 0.5s ease-in-out;
+}
+
+.App > .Banner > ul > a > .bnt:hover {
+  background-color: rgb(76, 112, 194);
+}
+
+.App > .Infos {
+  margin-bottom: 55px;
+}
+
+.Extras {
+  background-color: rgb(246, 246, 246);
+  box-shadow: 10px -10px 10px -12px #000000;
+  padding: 35px 20px 75px 20px;
+}
+
+.Extras > .title {
+  color: rgb(50, 75, 133);
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1,4;
+  margin-bottom: 65px;
+}
+
+.Extras > .Descript {
+  color: rgb(87, 87, 87);
+  line-height: 1.5;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+
+  margin-bottom: 35px;
+}
+
+.Extras > a  {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+.Extras > a > .bnt2 {
+  background-color: rgb(69, 90, 100);
+  border: none;
+  border-radius: 4px;
+  min-height: 56px;
+  padding: 17px 10px;
+
+  align-items: center;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.Extras > a > .bnt2 > .icon {
+  height: 20px;
+  width: 20px;
+
+  margin-right: 10px;
+}
+
+@media (max-width: 800px) {
+  .App > .Banner > ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .App > .Banner > ul > li {
+    font-size: 12px;
+  }
+
+  .App > .Banner > ul > a > .bnt {
+    width: 50%;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  .App > .Banner > ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .App > .Banner > ul > li {
+    font-size: 14px;
+  }
+
+  .App > .Banner > ul > a > .bnt {
+    width: 80%;
+  }
+
+  .HomePageFooter > .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .HomePageFooter > .content > .socialMedia {
+    margin: 0;
+    padding: 0;
+  }
+}
+

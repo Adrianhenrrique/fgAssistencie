@@ -1,0 +1,26 @@
+.content.inverted {
+    visibility: hidden;
+}
+
+.content {
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 10px;
+    width: 210px;
+    height: 220px;
+    transition: transform 1s ease-out,
+                backgroundImage 0.2s ease-out;
+
+    border-radius: 12px;
+}
+
+.left:hover {
+    transform: scale(1.03);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

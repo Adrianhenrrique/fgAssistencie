@@ -1,0 +1,38 @@
+.ContentBar {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 17px;
+    list-style: none;
+    font-size: 18px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.ItenBar {
+    cursor: pointer;
+}
+
+.ItenBar:hover {
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    transform: scale(1.06);
+    color: black !important; 
+    font-weight: 700;
+}
+
+.Navbar > .ContentBar > .ItenBar {
+    color: #686868;
+    font-weight: 700;
+}
+
+
+
+
+/* <nav className='Navbar'>
+                <ul className='ContentBar'>
+                    <li className='ItenBar'>Home</li>
+                    <li className='ItenBar'>Serviços</li>
+                    <li className='ItenBar'>Contato</li>
+                </ul>
+            </nav> */

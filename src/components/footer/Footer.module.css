@@ -1,0 +1,78 @@
+.HomePageFooter {
+    background-color: #000;
+    color: rgb(150, 150, 150);
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.HomePageFooter > .content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    gap: 65px;
+}
+  
+  .HomePageFooter p {
+    font-size: 15px;
+  }
+  
+  .HomePageFooter > .content > .contate > h2, .HomePageFooter > .content > .socialMedia > h2 {
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  .contate, .socialMedia {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .HomePageFooter > .content > .contate > p > a {
+    color: aqua;
+  }
+  
+  .HomePageFooter > .content > .socialMedia {
+    margin-left: 55px;
+  }
+  
+  .HomePageFooter > .content > .socialMedia > div > .social > img {
+    height: 30px;
+    width: 30px;
+  }
+  
+  .HomePageFooter > .reserved {
+    padding: 25px 0 35px 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .HomePageFooter  .reserved  span {
+    color: red;
+    font-size: 19px;
+    font-weight: 700;
+  }
+  
+  .HomePageFooter  .reserved  .editorName {
+    color: #000;
+  }
+
+  @media (max-width: 600px) {
+  
+    .HomePageFooter > .content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .HomePageFooter > .content > .socialMedia {
+      margin: 0;
+      padding: 0;
+    }
+  }

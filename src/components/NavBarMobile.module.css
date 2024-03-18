@@ -1,0 +1,31 @@
+.button {
+    background: none;
+    border: none;
+
+    cursor: pointer;
+}
+
+.NavBar > div {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    left: 0;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: -2px -2px 2px 1px #000;
+}
+
+.ItenBar {
+    color: #686868;
+    font-weight: 700;
+    width: 200px;
+    text-align: center;
+    border-bottom: 1px solid #686868;
+
+    font-size: 15px;
+    padding: 12px 0;
+    cursor: pointer;
+}

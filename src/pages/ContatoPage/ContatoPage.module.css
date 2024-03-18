@@ -1,0 +1,41 @@
+.backgroundBanner {
+    background-image: url(../../Img/Banner-contatoPage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+    height: 100vh;
+}
+
+.backgroundBanner > div:nth-child(1) {
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: end;
+    justify-content: center;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    border-bottom: 2px solid #fff;
+    padding: 0 35px;
+}
+
+.backgroundBanner > div > .rightText > h2 {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: justify;
+    color: #fff;
+    text-shadow: 2px 2px #000;
+} 
+
+@media (max-width: 1000px) {
+    .backgroundBanner {
+        height: 100%;
+    }
+
+    .backgroundBanner > div:nth-child(1) {
+        flex-direction: column;
+        padding: 25px 0;
+    }
+}
